@@ -74,7 +74,7 @@ class ToyNeuralNetwork:
         # y = 3 * x + 2
 
         # Choice C
-        # y = np.maximum(0, x)
+        y = np.maximum(0, x)
 
         # Choice D
         # print(x.shape)
@@ -95,9 +95,9 @@ class ChildToyNeuralNet(ToyNeuralNetwork):
     # variable to all ones.
 
     # Choice A:
-    # def __init__(self):
-    #     super().__init__()
-    #     self.weights_hidden = np.array([[1, 1], [1, 1]])
+    def __init__(self):
+        super().__init__()
+        self.weights_hidden = np.array([[1, 1], [1, 1]])
 
     # Choice B:
     # def __init__(self):

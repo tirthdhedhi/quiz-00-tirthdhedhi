@@ -32,7 +32,7 @@ def problem_01_part_a() -> float:
     # max_x = np.power(np.sum(np.power(np.abs(x), 2)), 1 / 2)
 
     # Choice B:
-    # max_x = np.power(np.sum(np.power(np.abs(x), 1000)), 1 / 1000)
+    max_x = np.power(np.sum(np.power(np.abs(x), 1000)), 1 / 1000)
 
     # Choice C:
     # max_x = np.argmax(x)
@@ -54,9 +54,9 @@ def problem_01_part_b() -> float:
     dot_x: float = 0.0
 
     # Choice A
-    # x1: np.ndarray = np.array([1, 2, 5, 3, 4])
-    # x2: np.ndarray = np.array([1, 4, 8, 2, 1])
-    # dot_x = x1 @ x2
+    x1: np.ndarray = np.array([1, 2, 5, 3, 4])
+    x2: np.ndarray = np.array([1, 4, 8, 2, 1])
+    dot_x = x1 @ x2
 
     # Choice B
     # x1: list = [1, 2, 5, 3, 4]

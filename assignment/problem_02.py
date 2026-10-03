@@ -29,8 +29,8 @@ def problem_02_part_a() -> np.ndarray:
     fx: np.ndarray = np.zeros(x.shape)
 
     # Choice A:
-    # w: np.ndarray = np.random.random(x.shape)
-    # fx = np.sum(w * x)
+    w: np.ndarray = np.random.random(x.shape)
+    fx = np.sum(w * x)
 
     # Choice B:
     # fx = x**2
@@ -69,7 +69,7 @@ def problem_02_part_b() -> np.ndarray:
     # fx = np.dot(w, x)
 
     # Choice C:
-    # fx = compute_rectified_linear_unit(x)
+    fx = compute_rectified_linear_unit(x)
 
     print(f"Problem 02-B answer: x = {x}, f(x) = {fx}")
 
